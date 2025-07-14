@@ -1,12 +1,13 @@
-
 import Form from './componts/form.jsx';
-import './App.css'
+import Table from "./componts/table.jsx";
 
 function App() {
-
   return (
-    <Form/>
-)
+    <div >
+      <Form />
+      <Table />
+    </div>
+  );
 }
 
-export default App
+export default App;
